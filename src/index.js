@@ -9,5 +9,7 @@ class Welcome extends React.Component {
     }
 }
 
-// ReactDOM.render(
-//     element, document.getElementById('root'));
+const element = <Welcome name="Krystian" />
+
+ReactDOM.render(
+    element, document.getElementById('root'));
